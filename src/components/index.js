@@ -1,0 +1,14 @@
+export { default as Reporta } from './Reporta';
+export { default as Searcha } from './Searcha';
+export { default as Region } from './Region';
+export { default as Controla } from './Controla';
+export { default as Schedulem } from './Schedulem';
+export { default as Userm } from './Userm';
+export { default as Usinga } from './Usinga';
+export { default as Devicea } from './Devicea';
+export { default as DashBoard } from './DashBoard';
+export { default as Setting } from './Setting';
+export { default as LogManage } from './LogManage';
+export { default as policyAdd } from './policyAdd';
+export { default as policyZone } from './policyZone';
+export { default as policyGroup } from './policyGroup';

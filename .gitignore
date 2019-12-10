@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+/_wildcard_enbrixcloud_com.crt
+/_wildcard_enbrixcloud_com_SHA256WITHRSA.key
 
 # testing
 /coverage

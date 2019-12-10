@@ -18,13 +18,13 @@ class Tbox extends Component{
         e.preventDefault();
         this.props.form.validateFields((err,values) => {
             if(!err){
-                axios.post('https://192.168.0.137:8000/login', {
+                axios.post('http://35.200.71.110:3000/users', {
                     user_id: values.email,
                     user_password: values.password
                 } )
                 .then((response) => {
                     localStorage.onlogin = values.email;
-                    localStorage.token = response.data.access_token;
+                    localStorage.token = response.data.token;
                     this.setState({
                         logged: response.data.result_code
                     });

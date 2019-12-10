@@ -32,21 +32,7 @@ class Devicea extends Component {
         super(props);
     }
 
-    /*getapi(){
-        axios.get("https://192.168.0.137:8000/groups?zone_id=5b3a3583adcd134a7e36b35a",{
-            headers: {
-                'access-token': localStorage.token,
-                'user_id': localStorage.onlogin
-            }
-        }).then((response) => {
-            console.log(response.data);
-        });
-    };*/
-
-
-
     render() {
-        //this.getapi();
         return (
             <div>
                 <h2>zzz</h2>

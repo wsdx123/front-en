@@ -37,15 +37,6 @@ class Home extends Component {
         )
     };
 
-    jAuth(){
-        axios.get('http://35.200.71.110:3000/users/check',{
-                headers: {
-                    'x-access-token': localStorage.token
-                }
-            }).then((res) =>{
-                console.log(res.data);
-        });
-    };
     getapi(){
         axios.get("https://192.168.0.137:8000/groups?zone_id=5b3a3583adcd134a7e36b35a",{
             headers: {
@@ -81,7 +72,6 @@ class Home extends Component {
         if(this.state.logoutflag){
             return <Redirect to="/" />
         }
-        //this.jAuth();
         this.getapi();
         return (
             <div>

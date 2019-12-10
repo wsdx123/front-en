@@ -48,7 +48,7 @@ class Home extends Component {
     };
 
 
-    preparevent =() => {
+    preparevent = () => {
         message.info('개발중');
     };
 
@@ -68,9 +68,6 @@ class Home extends Component {
     };
 
     render() {
-        if(this.state.logoutflag){
-            return <Redirect to="/" />
-        }
         this.jAuth();
         return (
             <div>
